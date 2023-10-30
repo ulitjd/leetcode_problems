@@ -1,5 +1,6 @@
 import pytest
-from my_solution import Solution
+from solution import Solution
+# from my_solution import Solution
 
 solution = Solution()
 

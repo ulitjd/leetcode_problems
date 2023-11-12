@@ -26,8 +26,9 @@ class Solution:
                 else right_lca
             )
 
-        return dp(root)
+        if isinstance(nodes[0], TreeNode):
+            nodes = [n.val for n in nodes]
 
-
-if __name__ == "__main__":
-    pass
+        output = dp(root)
+        # output = TreeNode()._array_to_tree_node([output])
+        return output

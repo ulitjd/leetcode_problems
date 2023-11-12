@@ -30,13 +30,4 @@ class Solution:
 
 
 if __name__ == "__main__":
-    test_cases = [
-        ([3, 5, 1, 6, 2, 0, 8, None, None, 7, 4], [7, 6, 2, 4], 5),
-        ([3, 5, 1, 6, 2, 0, 8, None, None, 7, 4], [4, 7], 2),
-        ([3, 5, 1, 6, 2, 0, 8, None, None, 7, 4], [1], 1),
-    ]
-    for t in test_cases:
-        root = TreeNode()._array_to_tree_node(t[0])
-        nodes = t[1]
-        output = Solution().lowestCommonAncestor(root, nodes)
-        print(f"{output = }")
+    pass
